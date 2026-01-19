@@ -1,33 +1,35 @@
+import ProjectCard from "./ProjectCard";
+
 function Projects() {
   return (
-    <section id="projects" style={{ padding: "60px" }}>
+    <section id="projects" className="bento-section">
       <h2>Projects</h2>
 
-      <div className="project">
-        <h3>Live Emotion Capture</h3>
-        <p>Tools: Deep Learning, CNN, OpenCV, Tensorflow</p>
-        <p>Real-time detection and analysis of human emotions using facial expressions, voice, or behavioral cues.</p>
-      </div>
+      <div className="card-grid">
+        <ProjectCard
+          title="Live Emotion Capture"
+          tools="Deep Learning, CNN, OpenCV, TensorFlow"
+          description="Real-time detection and analysis of human emotions using facial expressions, voice, or behavioral cues."
+        />
 
-      <div className="project">
-        <h3>Netflix Stock Price Prediction</h3>
-        <p>Tools: Python, Machine Learning</p>
-        <p>Predicted stock movement using regression models.</p>
-      </div>
+        <ProjectCard
+          title="Netflix Stock Price Prediction"
+          tools="Python, Machine Learning"
+          description="Predicted stock movement using regression models based on historical data."
+        />
 
-      <div className="project">
-        <h3>Transaction Fraud Detection</h3>
-        <p>Tools: Python, Machine Learning</p>
-        <p>Predicted stock movement using Classification models.</p>
-      </div>
+        <ProjectCard
+          title="IKEA Sales Performance Dashboard"
+          tools="SQL, Power BI, Excel"
+          description="Built interactive dashboards to track KPIs, trends, and regional performance."
+        />
 
-      <div className="project">
-        <h3>IKEA SALES Performance Dashboard</h3>
-        <p>Tools: SQL, Power BI, Excel</p>
-        <p>Built interactive dashboards to track KPIs and trends.</p>
+        <ProjectCard
+          title="Transaction Fraud Detection"
+          tools="Python, Machine Learning"
+          description="Detected fraudulent transactions using classification algorithms and feature engineering."
+        />
       </div>
-
-      
     </section>
   );
 }
