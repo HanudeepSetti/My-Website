@@ -85,3 +85,6 @@ p {
 #contact a:hover {
   text-decoration: underline;
 }
+#home {
+  background-color: #060010; /* fallback */
+}
