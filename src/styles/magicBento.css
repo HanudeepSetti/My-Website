@@ -229,3 +229,12 @@
   position: relative;
   overflow: hidden;
 }
+.projects-wrapper {
+  background: #f9f9f9;
+  padding-bottom: 100px;
+}
+
+.bento-section {
+  display: flex;
+  justify-content: center;
+}

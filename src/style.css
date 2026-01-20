@@ -5,11 +5,12 @@ body {
   color: #222;
 }
 
-section {
-  max-width: 900px;
+.section {
+  max-width: 1100px;
   margin: auto;
-  padding: 60px 20px;
+  padding: 80px 20px;
 }
+
 
 h1 {
   font-size: 42px;
@@ -87,4 +88,30 @@ p {
 }
 #home {
   background-color: #060010; /* fallback */
+}
+
+.hero-section {
+  position: relative;
+  min-height: 70vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #060010;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 20px;
 }
