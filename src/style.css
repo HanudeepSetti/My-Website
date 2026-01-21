@@ -175,3 +175,11 @@ p {
 .nav-links a:hover {
   opacity: 1;
 }
+#projects {
+  background: #060010;
+  padding-top: 120px;
+  padding-bottom: 140px;
+}
+#projects .section {
+  padding-top: 0;
+}
