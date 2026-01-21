@@ -1,4 +1,6 @@
 import GridDistortion from "./GridDistortion";
+import LiquidChrome from "./LiquidChrome";
+
 
 function Hero() {
   return (
@@ -8,14 +10,9 @@ function Hero() {
     >
       {/* Background */}
       <div className="hero-bg">
-        <GridDistortion
-          imageSrc="https://picsum.photos/1920/1080?grayscale"
-          grid={10}
-          mouse={0.1}
-          strength={0.15}
-          relaxation={0.9}
-        />
+        <LiquidChrome />
       </div>
+
 
       {/* Content */}
       <div className="hero-content">
