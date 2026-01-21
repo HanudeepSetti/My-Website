@@ -13,6 +13,7 @@ function Hero() {
         <LiquidChrome />
       </div>
 
+      <div className="hero-overlay"></div>
 
       {/* Content */}
       <div className="hero-content">
