@@ -1,9 +1,10 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #060010;
+  color: #eaeaea;
 }
+
 
 .section {
   max-width: 1100px;
@@ -40,15 +41,8 @@ p {
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background: rgb(255, 255, 255);
-  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
-  position: sticky;
-  top: 0;
-  z-index: 10;
+  background: rgba(6, 0, 16, 0.85);
+  backdrop-filter: blur(10px);
 }
 
 .logo {
@@ -73,10 +67,10 @@ p {
 }
 
 #contact {
-  background: rgb(0, 0, 0);
-  border-radius: 8px;
+  background: transparent;
   margin-bottom: 60px;
 }
+
 
 #contact a {
   color: #007bff;
