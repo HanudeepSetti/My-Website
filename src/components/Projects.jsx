@@ -2,8 +2,8 @@ import ProjectCard from "./ProjectCard";
 
 function Projects() {
   return (
-    <section id="projects" className="projects-wrapper">
-      <div className="section">
+    <section id="projects" className="projects-section">
+      <div className="projects-overlay">
         <h2>Projects</h2>
       </div>
 
