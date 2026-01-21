@@ -34,7 +34,7 @@ p {
 }
 
 .project {
-  background: rgb(40, 10, 40);
+  background: rgb(0, 0, 0);
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -58,7 +58,7 @@ p {
 
 .nav-links a {
   text-decoration: none;
-  color: #222;
+  color: #ffffff;
   font-weight: 500;
 }
 
@@ -117,4 +117,11 @@ p {
   color: white;
   max-width: 800px;
   padding: 20px;
+}
+.hero-bg {
+  pointer-events: auto;
+}
+
+.hero-overlay {
+  pointer-events: none;
 }

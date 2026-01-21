@@ -10,7 +10,8 @@ function Hero() {
     >
       {/* Background */}
       <div className="hero-bg">
-        <LiquidChrome />
+        <LiquidChrome interactive={true} />
+
       </div>
 
       <div className="hero-overlay"></div>
