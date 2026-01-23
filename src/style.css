@@ -133,12 +133,13 @@ p {
 
 
 .hero-content {
-  backdrop-filter: blur(10px);
-  background: rgba(0, 0, 0, 0.35);
-  padding: 32px 48px;
-  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 20px;
 }
-
 .hero-bg {
   pointer-events: auto;
 }
