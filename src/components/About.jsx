@@ -1,3 +1,5 @@
+import "../styles/about.css";
+
 <section id="about" className="about-section">
   <div className="about-grid">
 
