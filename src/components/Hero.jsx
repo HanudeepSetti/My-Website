@@ -6,11 +6,11 @@ function Hero() {
       {/* 🔮 LiquidChrome Background */}
       <div className="hero-bg">
         <LiquidChrome
-          baseColor={[0.15, 0.08, 0.3]}
-          speed={0.25}
-          amplitude={0.35}
-          frequencyX={3}
-          frequencyY={3}
+          baseColor={[0.18, 0.1, 0.35]}
+          speed={0.18}
+          amplitude={0.25}
+          frequencyX={2.5}
+          frequencyY={2.5}
         />
       </div>
 
