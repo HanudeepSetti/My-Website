@@ -238,3 +238,15 @@
   display: flex;
   justify-content: center;
 }
+
+.magic-bento-card {
+  color: #ffffff;
+}
+
+.magic-bento-card__title {
+  color: #ffffff;
+}
+
+.magic-bento-card__description {
+  color: rgba(255, 255, 255, 0.85);
+}
