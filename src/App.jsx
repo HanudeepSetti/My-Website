@@ -7,13 +7,17 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-    </>
+    <div
+      style={{
+        minHeight: "100vh",
+        background: "white",
+        color: "black",
+        padding: "40px",
+      }}
+    >
+      <h1>APP IS RENDERING</h1>
+      <p>If you see this, React is working.</p>
+    </div>
   );
 }
 
