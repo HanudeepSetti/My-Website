@@ -246,21 +246,24 @@
 
 
 .magic-bento-card__title {
-  font-weight: 500;
-  font-size: clamp(1rem, 1.2vw, 1.4rem);
+  font-size: clamp(1.1rem, 1.4vw, 1.5rem);
   line-height: 1.2;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.6em;
+
+  display: block;          /* IMPORTANT */
+  white-space: normal;     /* allow wrapping */
 }
 
 
+
 .magic-bento-card__description {
-  font-size: clamp(0.75rem, 0.9vw, 0.9rem);
+  font-size: clamp(0.8rem, 0.9vw, 0.95rem);
   line-height: 1.4;
-  opacity: 0.85;
+  opacity: 0.9;
 
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;      /* max 3 lines */
+  -webkit-line-clamp: 4;   /* allow more lines */
   overflow: hidden;
 }
 
@@ -271,4 +274,15 @@
 }
 .magic-bento-card:hover .magic-bento-card__description {
   -webkit-line-clamp: unset;
+}
+.magic-bento-card {
+  color: #ffffff;
+}
+
+.magic-bento-card__title {
+  color: #ffffff;
+}
+
+.magic-bento-card__description {
+  color: rgba(255, 255, 255, 0.85);
 }
