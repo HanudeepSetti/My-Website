@@ -13,7 +13,7 @@ function Hero() {
       <div className="hero-overlay"></div>
 
       {/* Content */}
-      <div className="hero-content hero-left">
+      <div className="hero-content" style={{ background: "red" }}>
         <h1 className="hero-name">
           HANUDEEP S <span>S</span>
         </h1>
