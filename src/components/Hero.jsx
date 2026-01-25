@@ -1,5 +1,6 @@
-
+import GridDistortion from "./GridDistortion";
 import LiquidChrome from "./LiquidChrome";
+
 
 function Hero() {
   return (
@@ -12,3 +13,5 @@ function Hero() {
     </section>
   );
 }
+
+export default Hero;
