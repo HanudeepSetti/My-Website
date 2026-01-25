@@ -239,14 +239,36 @@
   justify-content: center;
 }
 
-.magic-bento-card {
-  color: #ffffff;
+.magic-bento-card * {
+  max-width: 100%;
+  word-wrap: break-word;
 }
+
 
 .magic-bento-card__title {
-  color: #ffffff;
+  font-weight: 500;
+  font-size: clamp(1rem, 1.2vw, 1.4rem);
+  line-height: 1.2;
+  margin-bottom: 0.5em;
 }
 
+
 .magic-bento-card__description {
-  color: rgba(255, 255, 255, 0.85);
+  font-size: clamp(0.75rem, 0.9vw, 0.9rem);
+  line-height: 1.4;
+  opacity: 0.85;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;      /* max 3 lines */
+  overflow: hidden;
+}
+
+.magic-bento-card {
+  overflow: hidden;              /* already present, keep it */
+  display: flex;
+  flex-direction: column;
+}
+.magic-bento-card:hover .magic-bento-card__description {
+  -webkit-line-clamp: unset;
 }
