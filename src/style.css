@@ -1,9 +1,10 @@
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: #060010;
   color: #eaeaea;
 }
+
 
 
 .section {
@@ -233,4 +234,71 @@ p {
 body:has(#projects:hover) #projects .card-grid {
   transform: translateY(0);
   opacity: 1;
+}
+.hero-left {
+  position: absolute;
+  left: 8%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+  max-width: 520px;
+}
+
+.hero-name {
+  font-size: 56px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 1.1;
+}
+
+.hero-name span {
+  font-weight: 300;
+}
+
+.hero-role {
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  opacity: 0.85;
+  text-transform: uppercase;
+}
+
+.hero-tagline {
+  margin-top: 18px;
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 1.6;
+}
+.hero-actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  padding: 10px 22px;
+  border-radius: 999px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.btn-primary {
+  background: white;
+  color: black;
+}
+
+.btn-primary:hover {
+  background: #eaeaea;
+}
+
+.btn-secondary {
+  border: 1px solid rgba(255,255,255,0.5);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: rgba(255,255,255,0.1);
 }

@@ -8,7 +8,7 @@ const Certifications = () => {
         <li>Databases and SQL for Data Science with Python</li>
         <li>Data Visualization with Power BI</li>
         <li>Machine Learning with Python</li>
-        <li>Machine Learning by Columbia University</li>
+        <li>Machine Learning by Columbia Univdersity</li>
       </ul>
     </section>
   );
