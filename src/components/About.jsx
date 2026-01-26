@@ -5,7 +5,7 @@ function About() {
 
             {/* LEFT: IMAGE */}
             <div className="about-image">
-            <img src="/profile.png" alt="Hanudeep" />
+            <img src="/Profile.png" alt="Hanudeep" />
             </div>
 
             {/* RIGHT: TEXT */}
