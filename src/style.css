@@ -395,3 +395,11 @@ a:hover {
     rgba(6, 0, 16, 0) 35%
   );
 }
+.about-image img {
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 25%,
+    black 100%
+  );
+}
