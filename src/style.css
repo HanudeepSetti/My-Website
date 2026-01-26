@@ -75,19 +75,16 @@ a:hover {
   text-decoration: underline;
 }
 .hero-section {
-  min-height: 100vh;
-  width: 100vw;
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
+  position: relative;
+  height: 100vh;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-
-  position: relative;
+  justify-content: flex-start; /* 🔴 THIS is the key */
+  padding-left: 8%;
+  overflow: hidden;
 }
+
 
 /* Dark overlay for text readability */
 .hero-overlay {
@@ -180,7 +177,9 @@ a:hover {
 }
 
 .hero-content h1 span {
-  font-weight: 300;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .hero-content h3 {
@@ -228,4 +227,28 @@ a:hover {
 
 .btn-outline:hover {
   background: rgba(255,255,255,0.1);
+}
+.hero-glass {
+  padding: 32px 36px;
+  border-radius: 20px;
+
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.45),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+.hero-glass {
+  padding: 32px 36px;
+  border-radius: 20px;
+
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.45),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
 }

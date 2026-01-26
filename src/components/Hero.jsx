@@ -10,10 +10,11 @@ function Hero() {
     >
       <div className="hero-overlay"></div>
 
-      <div className="hero-content hero-left">
+      <div className="hero-content hero-left hero-glass">
         <h1>
-          Hi, I’m <span>Hanudeep S</span> 👋
+          <span>Hanudeep S</span>
         </h1>
+
         <h3>Data Analyst & Aspiring Data Scientist</h3>
         <p>Deep Learning · SQL · Power BI · Machine Learning</p>
 
@@ -22,6 +23,7 @@ function Hero() {
           <a href="#projects" className="btn btn-outline">Portfolio</a>
         </div>
       </div>
+
 
     </section>
   );
