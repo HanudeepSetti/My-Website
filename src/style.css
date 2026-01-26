@@ -314,3 +314,68 @@ a:hover {
   gap: 80px;
   align-items: center;
 }
+.about-image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+
+  object-fit: cover;
+  border-radius: 20px;
+
+  /* blending */
+  filter: grayscale(100%) contrast(1.1) brightness(0.95);
+  opacity: 0.9;
+
+  /* depth */
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.65);
+}
+.about-image::before {
+  content: "";
+  position: absolute;
+  inset: -40px;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.06),
+    transparent 65%
+  );
+  z-index: -1;
+}
+.about-text h2 {
+  font-size: 42px;
+  margin-bottom: 28px;
+  color: #ffffff;
+}
+
+.about-text p {
+  font-size: 17px;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.88);
+  max-width: 540px;
+}
+.about-inner {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 100px;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .about-inner {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .about-image img {
+    max-width: 300px;
+  }
+
+  .about-section {
+    padding: 100px 24px;
+  }
+}
