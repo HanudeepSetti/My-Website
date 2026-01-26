@@ -265,3 +265,26 @@ a:hover {
 .hero-content {
   color: #ffffff;
 }
+.about-section {
+  background: #060010;
+  padding: 120px 20px;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 20px;
+}
