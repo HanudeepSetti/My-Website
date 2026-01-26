@@ -1,23 +1,15 @@
-import LiquidChrome from "./LiquidChrome";
+import heroBg from "../assets/desk-bg.jpg";
 
 function Hero() {
   return (
-    <section className="hero-section">
-      {/* 🔮 LiquidChrome Background */}
-      <div className="hero-bg">
-        <LiquidChrome
-          baseColor={[0.18, 0.1, 0.35]}
-          speed={0.18}
-          amplitude={0.25}
-          frequencyX={2.5}
-          frequencyY={2.5}
-        />
-      </div>
-
-      {/* 🌑 Dark overlay for readability */}
+    <section
+      className="hero-section"
+      style={{
+        backgroundImage: `url(${heroBg})`,
+      }}
+    >
       <div className="hero-overlay"></div>
 
-      {/* 🧠 Content */}
       <div className="hero-content">
         <h1>Hi, I’m Hanudeep S 👋</h1>
         <h3>Data Analyst | Aspiring Data Scientist</h3>
