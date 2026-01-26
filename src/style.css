@@ -403,3 +403,29 @@ a:hover {
     black 100%
   );
 }
+.work-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* projects get more importance */
+  gap: 4rem;
+  padding: 6rem 8%;
+  background: #ffffff;
+}
+.projects-reel {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem; /* THIS is the magic */
+}
+.project-card {
+  opacity: 0.9;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  opacity: 1;
+}
+.work-right {
+  position: sticky;
+  top: 120px;
+  height: fit-content;
+}
