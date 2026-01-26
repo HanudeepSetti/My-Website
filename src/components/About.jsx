@@ -22,7 +22,7 @@ function About() {
         {/* RIGHT: IMAGE */}
         <div className="about-image">
           {/* replace src later with your real photo */}
-          <img src="/profile.jpg" alt="Hanudeep" />
+          <img src="/profile.png" alt="Hanudeep" />
         </div>
 
       </div>
