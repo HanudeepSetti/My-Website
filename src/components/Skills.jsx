@@ -1,19 +1,35 @@
 const skills = [
-  "Python", "SQL", "Power BI", "Excel",
-  "Machine Learning", "Deep Learning",
-  "Data Visualization", "Pandas", "NumPy"
+  "Python",
+  "SQL",
+  "Power BI",
+  "Excel",
+  "Machine Learning",
+  "Deep Learning",
+  "Data Visualization",
+  "Pandas",
+  "NumPy"
 ];
 
-const Skills = () => (
-  <section id="skills" className="skills-section">
-    <h2>Skills</h2>
+function Skills() {
+  return (
+    <section id="skills" className="skills-section">
+      <h2>Skills</h2>
 
-    <div className="skills-grid">
-      {skills.map((skill, i) => (
-        <div key={i} className="skill-pill">{skill}</div>
-      ))}
-    </div>
-  </section>
-);
+      <ul className="skills-summary">
+        <li>Python, SQL, Advanced Excel</li>
+        <li>Power BI, DAX, Data Visualization</li>
+        <li>Machine Learning, Predictive Modeling</li>
+      </ul>
+
+      <div className="skills-grid">
+        {skills.map((skill, i) => (
+          <div key={i} className="skill-pill">
+            {skill}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
 
 export default Skills;
